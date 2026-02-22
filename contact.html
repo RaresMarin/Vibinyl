@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Vibinyl</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stil.css">
+        <link rel="icon" type="image/png" href="icon.png">
+        <style>
+            body{
+                background-image: url('Screenshot 2026-01-23 161246.png');
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+    <body>
+                    <nav>
+    <li><a href="index.html">🏠</a></li>
+    <li><a href="despre.html">💽</a></li>
+    <li><a href="produse.html">🛒</a></li>
+    <li><a href="contact.html">🔐</a></li>
+    <li><a href="login.html">📞</a></li>
+</nav>
+<div style="display:grid;justify-content: center;align-items: center;height: 90vh;width: 100%;">
+    <div id="cont">
+    <h1 style="color:#b44529;">Inregistrare</h1>
+    <form>
+        <label for="username">Nume de utilizator:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Parolă:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="button" onclick="Inre()" value="Înregistrează-te">
+        <a href="#" id="login-link" onclick="f()">Ai deja un cont? Conectează-te</a>
+    </form>
+    </div>
+    <div id="cont1">
+    <h1>Conectare</h1>
+    <form>
+        <label for="username">Email:</label><br>
+        <input type="email" id="username" name="username"><br><br>
+        <label for="password">Parolă:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="button" onclick="Trim()" value="Conectează-te">
+        <a href="#" id="login-link" onclick="f1()">Nu ai cont? Înregistrează-te</a>
+    </form>
+    </div>
+    </div>
+
+
+     <script src="script.js" async defer></script>
+    </body>
+</html>
