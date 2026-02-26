@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Vibinyl</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stil.css">
+        <link rel="icon" type="image/png" href="icon.png">
+        <style>
+            body{
+                background-image: url('Screenshot 2026-01-23 161155.png');
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+                <div id="content">
+    <p>Puncte: <span id="Puncte">300</span></p>
+</div>
+                    <nav>
+    <li><a href="index.html">🏠</a></li>
+    <li><a href="despre.html">💽</a></li>
+    <li><a href="produse.html">🛒</a></li>
+    <li><a href="contact.html">🔐</a></li>
+    <li><a href="login.html">📞</a></li>
+</nav>
+<h1>Produse</h1>
+<audio id="A" src="" autoplay loop style="display:none"></audio>
+<div id="S" style="display:none">
+    <div style="display: grid;justify-content: center;align-items: center; height: 35vh;position: absolute;text-align: center;width: 100%;">
+        <div><h2 id="Album">Honey</h2>
+        <span id="Pret">10</span>
+        </div>
+        </div>
+<img id="AL" src="Album.jpg" onclick="res()" alt="Produs" style="width: 400px; height:400px;position: relative;">
+
+<div style="display: block;float:right;">
+<p id="M" ></p>
+<p id="P" ></p>
+<p id="Ap" ></p>
+<p id="D" ></p>
+<p id="G" ></p>
+<p id="L" ></p>
+<p id="T" ></p>
+<p id="F"></p>
+</div>
+       <button onclick="buy()" style="width: 10%;position:relative;bottom:0;left:24%">Cumpara</button> 
+</div>
+<div id="C" style="display: grid; justify-items: center; align-items: center; height: 70vh;grid-template-columns: repeat(3,1fr);">
+    <div>
+    <p>Pink Margarita</p>
+    <p>Pret: 100 RON</p>
+    <img id="Pink" src="Album.jpg" onclick="f0(0)" alt="Produs 1" style="width: 200px; height: 200px;">
+    </div>
+    <div>
+    <p>Rai di ri di dam</p>
+    <p>Pret: 120 RON</p>
+<img id="Val" src="Album1.jpg" onclick="f0(1)" alt="Produs 2" style="width: 200px; height: 200px;">
+    </div>
+    <div>
+    <p>Homewreked</p>
+    <p>Pret: 150 RON</p>
+<img id="N1" src="Album2.jpg" onclick="f0(2)" alt="Produs 3" style="width: 200px; height: 200px;">
+</div>
+    <div>
+    <p>In the middle</p>
+        <p>Pret: 130 RON</p>
+<img id="N" src="Album3.jpg" onclick="f0(3)" alt="Produs 4" style="width: 200px; height: 200px;">
+    </div>
+      <div>
+    <p>La la la</p>
+    <p>Pret: 90 RON</p>
+    <img id="N2" src="Album4.jpg" onclick="f0(4)" alt="Produs 1" style="width: 200px; height: 200px;">
+    </div>
+    <div>
+    <p>Infinity</p>
+    <p>Pret: 110 RON</p>
+<img id="N3" src="Album5.jpg" onclick="f0(5)" alt="Produs 2" style="width: 200px; height: 200px;">
+    </div>
+</div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
