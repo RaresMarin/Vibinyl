@@ -107,7 +107,60 @@ input[type="button"]{
             #Cd{
                 animation: bici 30s linear infinite; 
             }
+            #RI{
+                width: 50%;
+            }
+            #SA{
+                display:grid;
+                justify-content: center;
+                align-items: center;
+                height: 90vh;
+                width: 50%;
+            }
             @keyframes bici {
                 0% { transform: rotate(0deg); }
                 100% { transform: rotate(360deg); }
+            }
+              @media (max-width:1000px) {
+            h1 {
+                    font-size: 30px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 18px;
+                    text-align: center;
+                }
+                ul li{
+                    font-size: 20px;
+                     display: block;
+                    margin: 10px auto;
+                }
+            }
+            @media (max-width: 600px) {
+                body{
+                    overflow: scroll;
+                }
+                #SA{
+                    display: block;
+                    justify-content: center;
+                    align-items: center;
+                    height: 90vh;
+                    width: 100%;
+                }
+                nav li {
+                    display: block;
+                    margin: 10px auto;
+                }
+                input {
+                    width: 80%;
+                }
+                button {
+                    width: 80%;
+                }
+                #RI{
+                    width: 100%;
+                }
+                #login-link{
+                    color:rgb(248, 243, 243);
+                }
             }
