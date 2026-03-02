@@ -136,7 +136,17 @@ input[type="button"]{
                     margin: 10px auto;
                 }
             }
+            #AL{
+                width: 400px; 
+                height:400px;
+                position: relative;
+            }
             @media (max-width: 600px) {
+                #AL{
+                    width: 100px;
+                    height: 100px;
+                    padding: none;
+                }
                 body{
                     overflow: scroll;
                 }
@@ -163,4 +173,14 @@ input[type="button"]{
                 #login-link{
                     color:rgb(248, 243, 243);
                 }
+                
+                #M,#P,#Ap,#D,#G,#L,#T,#F{
+                    display: none;
+                    text-align: center;
+                    margin: 10px auto;
+                }
+            }
+            #O{
+                display: block;
+                float:right;
             }
