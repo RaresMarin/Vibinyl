@@ -1,6 +1,6 @@
 # 💿 Vibinyl
 
- Vibinyl is a vinyl shop! Buy your favorite albums!
+ Vibinyl is a vinyl shop! Buy your favorite albums! 
 
 ## ❤️‍🔥 Features
  
